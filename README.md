@@ -2,7 +2,7 @@
 [ViZDoom Documentation](https://vizdoom.farama.org/)
 
 A traing of model is performed on Google Colab. I used T4 and it performed around 500k step per hours. 
-I recomend to get know scenarious on youtube before performing experiments. It makes easier to understand what is point of environment and helps to create reward function. 
+I recommend to get know scenarious on youtube before performing experiments. It makes easier to understand what is point of environment and helps to create reward function. 
 
 Gooogle Colab can only print "state" with matplot lip to watch full replay is code to run localy. I added requirements from Conda Python 3.11 and I ran it on Ubuntu WSL. For use of this code you need to add file with policy to path "./train/basic/<policy_version>" eg. "./train/basic/best_model_500"
 <br />
